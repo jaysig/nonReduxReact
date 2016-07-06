@@ -1,0 +1,29 @@
+{
+    "extends": ["plugin:meteor/recommended","airbnb"],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "jquery": true,
+        "mongo": true,
+        "meteor": true
+    },
+
+    "plugins": [
+        "react",
+        "meteor"
+    ],
+    "rules":{
+      "prefer-const": 0,
+      "new-cap": 0,
+      "one-var": 0,
+      "array-bracket-spacing": [2, "always"],
+      "react/jsx-curly-spacing": [2, "always"],
+      "func-names": 0,
+      "no-else-return": 0,
+      "no-underscore-dangle": 0,
+      "import/no-unresolved": [
+        2, { "ignore": ["^meteor/"] }
+      ],
+      }
+}
